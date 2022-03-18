@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Monitor</title>
+</head>
+
+<body>
+  <!--menu-->
+  <nav class="navbar navbar-fixed-top navbar-inverse navbar-light bg-light header-top" >
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="mx-auto text-center">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/idwall_logo.png" width="180px" height="auto" class="d-inline-block align-top logo" alt="">
+      </a>
+    </div>
+
+    <!--Opções de dentro do menu-->
+          <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 text-left">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Protocolos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Documentos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Usuários</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Fontes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Matrizes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Regras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Atributos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Monitor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Organizações</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sair</a>
+              </li>
+            </ul>
+          </div>
+        
+
+  </nav>
+
+
+  <div class="d-flex justify-content-center my-2 caixa-monitor">
+    <h4 class="monitor-top">Monitor</h4>
+  </div>
+
+  <div class="container-fluid titulos">
+    <div class="row">
+      <div class="col-4 d-flex justify-content-center">
+        <h2>Status</h2>
+      </div>
+      <div class="col-4 d-flex justify-content-center">
+        <h2>Protocolo</h2>
+      </div>
+      <div class="col-4 d-flex justify-content-center">
+        <h2>Consultas em análise</h2>
+      </div>
+    </div>
+    <div class="row my-3">
+      <div class="col-4 d-flex justify-content-center">
+        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#statusModal">
+          Exibir status
+        </button>
+      </div>
+      <div class="col-4 d-flex justify-content-center">
+        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#protocoloModal">
+          Exibir protocolo
+        </button>
+      </div>
+      <div class="col-4 d-flex justify-content-center">
+        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#consultasModal">
+          Exibir consultas
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Status -->
+  <div class="modal fade" id="statusModal" tabindex="-1" aria-labelledby="statusModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h5 class="modal-title w-100" id="statusModalLabel">Status</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-left">
+          <div class="d-flex justify-content-center mt-2 mb-3">
+            <form class="form-inline">
+              <input class="form-control" type="search" placeholder="Buscar" aria-label="Search">
+              <a class="btn my-2 ml-0" href="#"><i class="bi bi-search"></i></a>
+            </form>
+          </div>
+          <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, qui provident.</li>
+            <li>Deserunt, expedita earum atque harum ad pariatur magnam in. Repudiandae velit sint temporibus fugiat? Ea
+              inventore pariatur facere sint!</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, qui provident.</li>
+            <li>Deserunt, expedita earum atque harum ad pariatur magnam in. Repudiandae velit sint temporibus fugiat? Ea
+              inventore pariatur facere sint!</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, qui provident.</li>
+            <li>Deserunt, expedita earum atque harum ad pariatur magnam in. Repudiandae velit sint temporibus fugiat? Ea
+              inventore pariatur facere sint!</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, qui provident.</li>
+            <li>Deserunt, expedita earum atque harum ad pariatur magnam in. Repudiandae velit sint temporibus fugiat? Ea
+              inventore pariatur facere sint!</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, qui provident.</li>
+            <li>Deserunt, expedita earum atque harum ad pariatur magnam in. Repudiandae velit sint temporibus fugiat? Ea
+              inventore pariatur facere sint!</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, qui provident.</li>
+            <li>Deserunt, expedita earum atque harum ad pariatur magnam in. Repudiandae velit sint temporibus fugiat? Ea
+              inventore pariatur facere sint!</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Protocolo -->
+  <div class="modal fade" id="protocoloModal" tabindex="-1" aria-labelledby="protocoloModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h5 class="modal-title w-100" id="protocoloModalLabel">Protocolo</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-left">
+          <div class="d-flex justify-content-center mt-2 mb-3">
+            <form class="form-inline">
+              <input class="form-control" type="search" placeholder="Buscar" aria-label="Search">
+              <a class="btn my-2 ml-0" href="#"><i class="bi bi-search"></i></a>
+            </form>
+          </div>
+          <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, qui provident.</li>
+            <li>Deserunt, expedita earum atque harum ad pariatur magnam in. Repudiandae velit sint temporibus fugiat? Ea
+              inventore pariatur facere sint!</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, qui provident.</li>
+            <li>Deserunt, expedita earum atque harum ad pariatur magnam in. Repudiandae velit sint temporibus fugiat? Ea
+              inventore pariatur facere sint!</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, qui provident.</li>
+            <li>Deserunt, expedita earum atque harum ad pariatur magnam in. Repudiandae velit sint temporibus fugiat? Ea
+              inventore pariatur facere sint!</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, qui provident.</li>
+            <li>Deserunt, expedita earum atque harum ad pariatur magnam in. Repudiandae velit sint temporibus fugiat? Ea
+              inventore pariatur facere sint!</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, qui provident.</li>
+            <li>Deserunt, expedita earum atque harum ad pariatur magnam in. Repudiandae velit sint temporibus fugiat? Ea
+              inventore pariatur facere sint!</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, qui provident.</li>
+            <li>Deserunt, expedita earum atque harum ad pariatur magnam in. Repudiandae velit sint temporibus fugiat? Ea
+              inventore pariatur facere sint!</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <!-- Modal Consultas -->
+      <div class="modal fade" id="consultasModal" tabindex="-1" aria-labelledby="consultasModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header text-center">
+              <h5 class="modal-title w-100" id="consultasModalLabel">Consultas em análise</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-left">
+              <div class="d-flex justify-content-center mt-2 mb-3">
+                <form class="form-inline">
+                  <input class="form-control" type="search" placeholder="Buscar" aria-label="Search">
+                  <a class="btn my-2 ml-0" href="#"><i class="bi bi-search"></i></a>
+                </form>
+              </div>
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, qui provident.</li>
+                <li>Deserunt, expedita earum atque harum ad pariatur magnam in. Repudiandae velit sint temporibus
+                  fugiat? Ea inventore pariatur facere sint!</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, qui provident.</li>
+                <li>Deserunt, expedita earum atque harum ad pariatur magnam in. Repudiandae velit sint temporibus
+                  fugiat? Ea inventore pariatur facere sint!</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, qui provident.</li>
+                <li>Deserunt, expedita earum atque harum ad pariatur magnam in. Repudiandae velit sint temporibus
+                  fugiat? Ea inventore pariatur facere sint!</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, qui provident.</li>
+                <li>Deserunt, expedita earum atque harum ad pariatur magnam in. Repudiandae velit sint temporibus
+                  fugiat? Ea inventore pariatur facere sint!</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, qui provident.</li>
+                <li>Deserunt, expedita earum atque harum ad pariatur magnam in. Repudiandae velit sint temporibus
+                  fugiat? Ea inventore pariatur facere sint!</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, qui provident.</li>
+                <li>Deserunt, expedita earum atque harum ad pariatur magnam in. Repudiandae velit sint temporibus
+                  fugiat? Ea inventore pariatur facere sint!</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
