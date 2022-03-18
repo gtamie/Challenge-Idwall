@@ -10,20 +10,21 @@ body {
   text-align: center;
 }
 
-
-/*monitor*/
-.container-fluid {
-  margin-top: 13rem !important;
-}
-
-/*barra de pesquisa - modal*/
-input {
-  border-radius: 50px 50px 50px 50px !important;
+/*navbar*/
+.logo {
+  width: 250px;
+  margin-left: -40px;
 }
 
 .header-top {
   background-color: #e8e8e8 !important;
   box-shadow: 0 0 10px;
+}
+
+
+/*monitor*/
+.container-fluid {
+  margin-top: 13rem !important;
 }
 
 .monitor-top {
@@ -46,18 +47,25 @@ input {
 
 .titulos button:hover {
   background-color: #210070;
-}
-
-button:hover {
   transform: scale(1.1);
 }
 
-.logo {
-  width: 250px;
-  margin-left: -40px;
-}
 
+/*modal*/
 .modal-header{
   background-color:#6b31ff !important;
   color: white;
+}
+
+/*barra de pesquisa - modal*/
+input {
+  border-radius: 50px 50px 50px 50px !important;
+}
+
+/*barra de pesquisa - usuários*/
+.filtro-usuarios{
+  border-radius: 50px 0px 0px 50px !important;
+}
+.pesquisa-usuarios {
+  border-radius: 0px 50px 50px 0px !important;
 }
