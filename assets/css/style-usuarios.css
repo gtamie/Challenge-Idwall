@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    font-family: 'Inter',
+        sans-serif;
+}
+
+.usuarios{
+    font-size: 40pt;
+}
+
+.filtrar{
+    background-color: #6b31ff;
+}
+
+.menu-filtrar{
+    background-color: #9e77ff;
+}
+
+.menu-filtrar a{
+    color: white;
+}
+
+.botao-add{
+    margin-bottom: -150px;
+    margin-left: -1080px;
+}
+
+.thead{
+    color: white;
+    background-color: #6b31ff;
+}
+
+.tbody button{
+    background-color: #6b31ff;
+}
+
+.tbody button:hover{
+    background-color: #9e77ff !important;
+}
+
+
+.toggle-off{
+    background-color: rgb(255, 74, 74) !important;
+}
+
+.listar-usuario{
+    font-weight: bold;
+}
